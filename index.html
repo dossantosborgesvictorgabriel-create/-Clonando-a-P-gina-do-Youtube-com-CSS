@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Programar em Python - YouTube Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <button class="menu-btn">☰</button>
+            <div class="logo">
+                <span class="logo-icon">▶</span>
+                <span class="logo-text">YouTube</span>
+            </div>
+        </div>
+        <div class="header-center">
+            <div class="search-box">
+                <input type="text" placeholder="Pesquisar">
+                <button class="search-btn">🔍</button>
+            </div>
+        </div>
+        <div class="header-right">
+            <button class="icon-btn">📹</button>
+            <button class="icon-btn">🔔</button>
+            <div class="user-avatar">U</div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Video Section -->
+        <div class="video-section">
+            <!-- Video Player -->
+            <div class="video-player">
+                <img src="/placeholder.svg?height=720&width=1280" alt="Video">
+                <div class="play-overlay">▶</div>
+            </div>
+
+            <!-- Video Info -->
+            <div class="video-info">
+                <h1 class="video-title">Como Programar em Python - Tutorial Completo para Iniciantes 2025</h1>
+                <div class="video-stats">
+                    <span>1.234.567 visualizações</span>
+                    <span>•</span>
+                    <span>há 2 dias</span>
+                </div>
+            </div>
+
+            <!-- Video Actions -->
+            <div class="video-actions">
+                <button class="action-btn">
+                    <span class="icon">👍</span>
+                    <span>45K</span>
+                </button>
+                <button class="action-btn">
+                    <span class="icon">👎</span>
+                </button>
+                <button class="action-btn">
+                    <span class="icon">↗️</span>
+                    <span>Compartilhar</span>
+                </button>
+                <button class="action-btn">
+                    <span class="icon">💾</span>
+                    <span>Salvar</span>
+                </button>
+                <button class="action-btn">⋮</button>
+            </div>
+
+            <!-- Channel Info -->
+            <div class="channel-info">
+                <div class="channel-left">
+                    <div class="channel-avatar">PC</div>
+                    <div class="channel-details">
+                        <h3 class="channel-name">Programação Code</h3>
+                        <p class="channel-subs">2,5 mi de inscritos</p>
+                    </div>
+                </div>
+                <button class="subscribe-btn">INSCREVER-SE</button>
+            </div>
+
+            <!-- Video Description -->
+            <div class="video-description">
+                <p>Aprenda Python do zero! Neste tutorial completo, você vai descobrir os fundamentos da programação em Python, incluindo variáveis, loops, funções e muito mais.</p>
+                <p>📚 Conteúdo do vídeo:</p>
+                <p>00:00 - Introdução<br>
+                02:30 - Instalando Python<br>
+                10:15 - Variáveis e Tipos de Dados<br>
+                25:40 - Estruturas de Controle<br>
+                45:20 - Funções<br>
+                60:00 - Projeto Prático</p>
+                <button class="show-more">MOSTRAR MAIS</button>
+            </div>
+
+            <!-- Comments Section -->
+            <div class="comments-section">
+                <div class="comments-header">
+                    <h3>1.234 comentários</h3>
+                    <button class="sort-btn">🔽 Ordenar por</button>
+                </div>
+                
+                <div class="add-comment">
+                    <div class="user-avatar small">U</div>
+                    <input type="text" placeholder="Adicione um comentário...">
+                </div>
+
+                <div class="comment">
+                    <div class="user-avatar small">JD</div>
+                    <div class="comment-content">
+                        <div class="comment-header">
+                            <span class="comment-author">@joaodev</span>
+                            <span class="comment-date">há 1 dia</span>
+                        </div>
+                        <p class="comment-text">Excelente tutorial! Muito bem explicado, consegui entender todos os conceitos. 👏</p>
+                        <div class="comment-actions">
+                            <button>👍 125</button>
+                            <button>👎</button>
+                            <button>Responder</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comment">
+                    <div class="user-avatar small">MS</div>
+                    <div class="comment-content">
+                        <div class="comment-header">
+                            <span class="comment-author">@mariasilva</span>
+                            <span class="comment-date">há 12 horas</span>
+                        </div>
+                        <p class="comment-text">Perfeito para quem está começando! Obrigada por compartilhar esse conteúdo gratuito 🚀</p>
+                        <div class="comment-actions">
+                            <button>👍 89</button>
+                            <button>👎</button>
+                            <button>Responder</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="suggested-video">
+                <img src="/placeholder.svg?height=120&width=200" alt="Thumbnail">
+                <div class="suggested-info">
+                    <h4>JavaScript em 10 Minutos</h4>
+                    <p class="suggested-channel">Dev Master</p>
+                    <p class="suggested-stats">890K visualizações • há 1 semana</p>
+                </div>
+            </div>
+
+            <div class="suggested-video">
+                <img src="/placeholder.svg?height=120&width=200" alt="Thumbnail">
+                <div class="suggested-info">
+                    <h4>React JS - Curso Completo</h4>
+                    <p class="suggested-channel">Code Academy</p>
+                    <p class="suggested-stats">1,2M visualizações • há 3 dias</p>
+                </div>
+            </div>
+
+            <div class="suggested-video">
+                <img src="/placeholder.svg?height=120&width=200" alt="Thumbnail">
+                <div class="suggested-info">
+                    <h4>CSS Flexbox Tutorial</h4>
+                    <p class="suggested-channel">Web Design Pro</p>
+                    <p class="suggested-stats">456K visualizações • há 2 semanas</p>
+                </div>
+            </div>
+
+            <div class="suggested-video">
+                <img src="/placeholder.svg?height=120&width=200" alt="Thumbnail">
+                <div class="suggested-info">
+                    <h4>Node.js para Iniciantes</h4>
+                    <p class="suggested-channel">Backend Brasil</p>
+                    <p class="suggested-stats">678K visualizações • há 5 dias</p>
+                </div>
+            </div>
+
+            <div class="suggested-video">
+                <img src="/placeholder.svg?height=120&width=200" alt="Thumbnail">
+                <div class="suggested-info">
+                    <h4>Git e GitHub - Guia Completo</h4>
+                    <p class="suggested-channel">Programação Code</p>
+                    <p class="suggested-stats">2,1M visualizações • há 1 mês</p>
+                </div>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
